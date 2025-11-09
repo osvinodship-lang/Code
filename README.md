@@ -26,3 +26,5 @@ try:
     print(specific_response.text)
 except requests.exceptions.RequestException as e:
     print(f"Error fetching {specific_resource_url}: {e}")
+
+
