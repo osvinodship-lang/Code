@@ -1,4 +1,4 @@
-📔 http://localhost:8888/
+📔 
 
 # Code
 Web url code to insider vs code
