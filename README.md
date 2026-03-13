@@ -5,7 +5,7 @@ Web url code to insider vs code
 
 import requests
 
-url = "http://127.0.0.1:5500/files"  # The base URL of your live server
+url = "http://127.0.0.1:8888/mainstorage/files"  # The base URL of your live server
 
 try:
     response = requests.get(url)
@@ -20,7 +20,7 @@ except requests.exceptions.RequestException as e:
     print(f"Error connecting to the live server: {e}")
 
 # You can also access specific resources served by the live server:
-specific_resource_url = "http://127.0.0.1:5500/your_file.html"  # Replace with an actual file path
+specific_resource_url = "http://127.0.0.1:8888/your_file.html"  # Replace with an actual file path
 try:
     specific_response = requests.get(specific_resource_url)
     specific_response.raise_for_status()
