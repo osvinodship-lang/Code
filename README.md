@@ -1,10 +1,6 @@
-📔 
-
-# Code
+📔 # Code
 Web url code to insider vs code
-
 import requests
-
 url = "http://127.0.0.1:8888/mainstorage/files"  # The base URL of your live server
 
 try:
@@ -50,3 +46,7 @@ Companies and open-source communities
 
 🆓 Is GitHub free? Yes!
 Free for public and private repositories Paid plans offer advanced features for teams and companies.📌 Example If you build a website or app, you can:Save the code on GitHub,Share it with others,Track improvements,Revert to older versions if something breaks,If you want, I can also explain Git vs GitHub, how beginners use GitHub, or how to create your first repository.
+
+Map codes and location.
+
+<a href="https://osm.org/go/yszp">Map</a>
