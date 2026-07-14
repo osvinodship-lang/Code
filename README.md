@@ -1,7 +1,7 @@
 📔 # Code
 Web url code to insider vs code
 import requests
-url = "http://127.0.0.1:8888/mainstorage/files"  # The base URL of your live server
+url = "http://127.0.0.1:8888/"  # The base URL of your live server
 
 try:
     response = requests.get(url)
